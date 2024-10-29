@@ -35,3 +35,21 @@ sudo docker start redis
 ```
 sudo docker start some-rabbit
 ```
+
+- testar a aplicação
+
+```
+http://localhost:3000/send-message
+```
+
+- use o metodo POST com postman ou insomnia.
+
+
+```
+{
+  "phone": "+5511999999999",
+  "message": "Olá, seja bem-vindo(a)!"
+}
+```
+
+- formato em json para informar os dados
