@@ -1,0 +1,7 @@
+CREATE TABLE message_logs (
+  id SERIAL PRIMARY KEY,
+  phone VARCHAR(15) NOT NULL,
+  message TEXT NOT NULL,
+  status VARCHAR(10) NOT NULL,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
